@@ -1,0 +1,8 @@
+compiler:
+  - gcc
+
+dist: bionic
+
+skript:
+  - make clean
+  - make
