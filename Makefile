@@ -27,7 +27,7 @@ doc:
 	doxygen
 	
 sensord: $(OBJ)
-	$(CC) $(LIBS) -g -o $@ $^
+	$(CC) -g -o $@ $^ $(LIBS)
 	
 sensorcal: $(OBJ_CAL)
 	$(CC) -g -o $@ $^
